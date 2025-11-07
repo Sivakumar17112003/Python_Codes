@@ -11,4 +11,5 @@ with open("sample.txt","r") as f:
     list=f.read()
     print(list)
 
+
 print(re.findall(r"\d{4}",list))
